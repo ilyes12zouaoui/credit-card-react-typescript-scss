@@ -59,6 +59,7 @@ const Form: React.FC<Props> = ({
         </div>
         <div className="form-group-input-container">
           <input
+            placeholder="0123"
             type="string"
             value={code1}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -68,6 +69,7 @@ const Form: React.FC<Props> = ({
             className="form-group-input code-input"
           />
           <input
+            placeholder="4567"
             type="string"
             value={code2}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -77,6 +79,7 @@ const Form: React.FC<Props> = ({
             className="form-group-input code-input"
           />
           <input
+            placeholder="8901"
             type="string"
             value={code3}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -86,6 +89,7 @@ const Form: React.FC<Props> = ({
             className="form-group-input code-input"
           />
           <input
+            placeholder="2345"
             type="string"
             value={code4}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -165,6 +169,7 @@ const Form: React.FC<Props> = ({
         <div className="form-group-input-container">
           <input
             type="text"
+            placeholder="enter your name"
             value={fullName}
             onChange={event => {
               setFullName(filterFullName(event.target.value));

@@ -1,6 +1,8 @@
 @import "../../global.scss";
 .credit-card-form {
   width: 100%;
+  font-family: serif;
+  color: #fff;
   @include layout-flex-center;
   flex-direction: column;
   .form-group {

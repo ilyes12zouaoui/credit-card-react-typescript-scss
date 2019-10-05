@@ -4,6 +4,7 @@
   @include layout-flex-center;
   @include box-shadow-square;
   flex-direction: column;
+
   background-color: $color-black-transparent;
   min-width: $min-width;
   min-height: $min-height;
