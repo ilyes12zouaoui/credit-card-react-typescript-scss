@@ -1,0 +1,28 @@
+@import "../../global.scss";
+.credit-card-form {
+  width: 100%;
+  @include layout-flex-center;
+  flex-direction: column;
+  .form-group {
+    display: flex;
+    padding: 15px;
+    .form-group-label-container {
+      margin-right: 10px;
+      @include layout-flex-center;
+    }
+
+    .form-group-input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .code-input {
+      width: 80px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    .select-input {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "../global.scss";
+
+@mixin container-style($min-width, $min-height) {
+  @include layout-flex-center;
+  @include box-shadow-square;
+  flex-direction: column;
+  background-color: $color-black-transparent;
+  min-width: $min-width;
+  min-height: $min-height;
+}
+
+@media screen and (min-width: 700px) {
+  .credit-card-container {
+    @include container-style(85%, 85vh);
+  }
+}
+@media screen and (max-width: 699px) {
+  .credit-card-container {
+    @include container-style(97%, 97vh);
+  }
+}

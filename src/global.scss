@@ -1,0 +1,11 @@
+@mixin layout-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin box-shadow-square {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 23px -5px;
+}
+
+$color-black-transparent: #00000017;
