@@ -8,6 +8,8 @@
     rgba(255, 0, 82, 1) 100%
   );
   @include layout-flex-center;
+  justify-content: space-between;
+  flex-direction: column;
   font-family: "Share Tech Mono", monospace;
 }
 
