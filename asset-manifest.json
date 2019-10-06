@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/credit-card-react-typescript-scss/static/css/main.5ed6dfa5.chunk.css",
+    "main.js": "/credit-card-react-typescript-scss/static/js/main.ec155e8e.chunk.js",
+    "main.js.map": "/credit-card-react-typescript-scss/static/js/main.ec155e8e.chunk.js.map",
+    "runtime-main.js": "/credit-card-react-typescript-scss/static/js/runtime-main.0f7d8262.js",
+    "runtime-main.js.map": "/credit-card-react-typescript-scss/static/js/runtime-main.0f7d8262.js.map",
+    "static/js/2.e0b48a43.chunk.js": "/credit-card-react-typescript-scss/static/js/2.e0b48a43.chunk.js",
+    "static/js/2.e0b48a43.chunk.js.map": "/credit-card-react-typescript-scss/static/js/2.e0b48a43.chunk.js.map",
+    "index.html": "/credit-card-react-typescript-scss/index.html",
+    "precache-manifest.38871c3d1d819c0a29688c16a5268b6e.js": "/credit-card-react-typescript-scss/precache-manifest.38871c3d1d819c0a29688c16a5268b6e.js",
+    "service-worker.js": "/credit-card-react-typescript-scss/service-worker.js",
+    "static/css/main.5ed6dfa5.chunk.css.map": "/credit-card-react-typescript-scss/static/css/main.5ed6dfa5.chunk.css.map",
+    "static/media/ship.png": "/credit-card-react-typescript-scss/static/media/ship.c8be26a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f7d8262.js",
+    "static/js/2.e0b48a43.chunk.js",
+    "static/css/main.5ed6dfa5.chunk.css",
+    "static/js/main.ec155e8e.chunk.js"
+  ]
+}
